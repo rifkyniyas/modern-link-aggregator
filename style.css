@@ -58,18 +58,19 @@ h3 {
   min-height: 75vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .links__section {
-  min-width: 21.875rem;
+  width: 37.5rem;
+  padding: 1.5rem 0;
 }
 .links__container {
   display: flex;
   padding: 1rem 2rem;
   text-decoration: none;
   background-color: #ffffff;
-  margin: 2rem 0;
+  margin: 1rem 0;
   border-radius: 50px;
 }
 .links__content {
