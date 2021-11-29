@@ -20,6 +20,7 @@ h3 {
 }
 h1 {
   font-size: 1.5rem;
+  padding: 0.5rem 0;
 }
 h2 {
   font-size: 1rem;
@@ -60,7 +61,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0;
+  padding-bottom: 2rem;
 }
 /* Main Section */
 .links__main {
@@ -84,9 +85,10 @@ h3 {
   background-color: #ffffff;
   margin: 1rem 0;
   border-radius: 50px;
+  transition: 0.2s ease-in-out 0s;
 }
 .links__container:hover {
-  scale: (1.05, 1.05);
+  transform: scale(1.05);
 }
 .links__container .iconify-inline {
   margin-right: 1rem;
@@ -94,6 +96,7 @@ h3 {
 .links__content {
   color: #000000;
 }
+/* Responsive design */
 @media (max-width: 640px) {
   .header {
     flex-direction: column;
