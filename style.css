@@ -85,11 +85,23 @@ h3 {
   margin: 1rem 0;
   border-radius: 50px;
 }
+.links__container:hover {
+  scale: (1.05, 1.05);
+}
 .links__container .iconify-inline {
   margin-right: 1rem;
 }
 .links__content {
   color: #000000;
 }
-@media screen {
+@media (max-width: 640px) {
+  .header {
+    flex-direction: column;
+  }
+  .header__content {
+    text-align: center;
+  }
+  .links__section {
+    width: 18.75rem;
+  }
 }
